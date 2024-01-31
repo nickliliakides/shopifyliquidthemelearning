@@ -1,0 +1,19 @@
+{
+  "current": {
+    "sections": {
+      "header": {
+        "type": "header",
+        "custom_css": [
+          "header {padding: 20px;}"
+        ],
+        "settings": {
+          "show_search": true,
+          "bg": "#f2e8e8"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
