@@ -1,0 +1,12 @@
+<html>
+  <head>
+    {{ content_for_header }}
+    {{ 'style.css' | asset_url | stylesheet_tag }}
+  </head>
+  <body>
+    {% section 'header' %}
+    {{ content_for_layout }}
+    {% comment %} {{ 'scripts.js' | asset_url | script_tag }} {% endcomment %}
+    <script src="{{ 'scripts.js' | asset_url }}" defer></script>
+  </body>
+</html>

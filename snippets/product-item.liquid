@@ -1,0 +1,9 @@
+<div>
+  <a href="{{ product.url }}">
+    <img width="100" height="100" src="{{ product.featured_image | image_url }}" loading="eager">
+    <h3>{{ product.title }}</h3>
+    <p>{{ product.price | money }}</p>
+  </a>
+</div>
+{% comment %} {{- product.title | link_to: product.url }} {% endcomment %}
+<hr>
